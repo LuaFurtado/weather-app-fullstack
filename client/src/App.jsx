@@ -6,7 +6,6 @@ async function handleGetWeather() {
 }
 
 function App() {
-  console.log("App component rendered");
 
   return (
     <div>
