@@ -1,4 +1,4 @@
-export async function getWeather() {
+export async function getWeather(city = "San Jose") {
   // This function will fetch weather data from the backend
   const response = await fetch(
     `/api/weather?city=${encodeURIComponent(city)}`
